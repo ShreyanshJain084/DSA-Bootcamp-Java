@@ -15,6 +15,7 @@ The 'new' keyword dynamically allocates(that is, allocates at run time)memory fo
 This reference is, more or less, the address in memory of the object allocated by new.
 This reference is then stored in the variable.
 Thus, in Java, all class objects must be dynamically allocated.
+You can't cause an object reference to point to an arbitrary memory location or manipulate it
 
 Box mybox; // declare reference to object
      mybox = new Box(); // allocate a Box object
